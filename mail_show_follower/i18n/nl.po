@@ -1,0 +1,154 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mail_show_follower
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: mail_show_follower
+#: model_terms:ir.ui.view,arch_db:mail_show_follower.res_config_settings_view_form
+msgid "%(partner_email)s = Partner Email"
+msgstr "%(partner_email)s = E-mailadres relatie"
+
+#. module: mail_show_follower
+#: model_terms:ir.ui.view,arch_db:mail_show_follower.res_config_settings_view_form
+msgid "%(partner_email_domain)s = Partner Email Domain"
+msgstr "%(partner_email_domain)s = E-maildomein relatie"
+
+#. module: mail_show_follower
+#: model_terms:ir.ui.view,arch_db:mail_show_follower.res_config_settings_view_form
+msgid "%(partner_name)s <%(partner_email)s>"
+msgstr "%(partner_name)s <%(partner_email)s>"
+
+#. module: mail_show_follower
+#: model_terms:ir.ui.view,arch_db:mail_show_follower.res_config_settings_view_form
+msgid "%(partner_name)s = Partner Name"
+msgstr "%(partner_name)s = Naam relatie"
+
+#. module: mail_show_follower
+#: model_terms:ir.ui.view,arch_db:mail_show_follower.res_config_settings_view_form
+msgid "<strong>Supported parameters:</strong>"
+msgstr "<strong>Ondersteunde parameters:</strong>"
+
+#. module: mail_show_follower
+#: model:ir.model,name:mail_show_follower.model_res_company
+msgid "Companies"
+msgstr "Bedrijven"
+
+#. module: mail_show_follower
+#: model:ir.model,name:mail_show_follower.model_res_config_settings
+msgid "Config Settings"
+msgstr "Configuratie-instellingen"
+
+#. module: mail_show_follower
+#: model:ir.model,name:mail_show_follower.model_res_partner
+msgid "Contact"
+msgstr "Contact"
+
+#. module: mail_show_follower
+#: model:ir.model.fields,field_description:mail_show_follower.field_res_config_settings__show_followers_message_preview
+msgid "Message preview"
+msgstr "Voorbeeld van het bericht"
+
+#. module: mail_show_follower
+#: model_terms:ir.ui.view,arch_db:mail_show_follower.res_config_settings_view_form
+msgid "Models to exclude"
+msgstr "Uit te sluiten modellen"
+
+#. module: mail_show_follower
+#: model_terms:ir.ui.view,arch_db:mail_show_follower.res_config_settings_view_form
+msgid "Notice: Replies to this email will be sent to all recipients."
+msgstr ""
+"Let op: antwoorden op deze e-mail worden naar alle ontvangers verzonden."
+
+#. module: mail_show_follower
+#: model:ir.model,name:mail_show_follower.model_mail_mail
+msgid "Outgoing Mails"
+msgstr "Uitgaande e-mails"
+
+#. module: mail_show_follower
+#: model:ir.model.fields,field_description:mail_show_follower.field_res_company__show_followers_partner_format
+#: model:ir.model.fields,field_description:mail_show_follower.field_res_config_settings__show_followers_partner_format
+msgid "Partner format"
+msgstr "Weergaveformaat relatie"
+
+#. module: mail_show_follower
+#: model:ir.model.fields,field_description:mail_show_follower.field_res_config_settings__show_followers_models_to_exclude
+msgid "Show Followers Models To Exclude"
+msgstr "Uit te sluiten modellen voor het tonen van volgers"
+
+#. module: mail_show_follower
+#: model_terms:ir.ui.view,arch_db:mail_show_follower.res_config_settings_view_form
+msgid "Show Followers on mails"
+msgstr "Volgers tonen in e-mails"
+
+#. module: mail_show_follower
+#: model:ir.model.fields,field_description:mail_show_follower.field_res_company__show_internal_users_cc
+#: model:ir.model.fields,field_description:mail_show_follower.field_res_config_settings__show_internal_users_cc
+msgid "Show Internal Users CC"
+msgstr "Interne gebruikers in CC tonen"
+
+#. module: mail_show_follower
+#: model_terms:ir.ui.view,arch_db:mail_show_follower.res_config_settings_view_form
+msgid "Show Internal Users on CC"
+msgstr "Interne gebruikers in CC tonen"
+
+#. module: mail_show_follower
+#: model:ir.model.fields,field_description:mail_show_follower.field_res_users__show_in_cc
+msgid "Show in CC"
+msgstr "Tonen in CC"
+
+#. module: mail_show_follower
+#: model:ir.model.fields,help:mail_show_follower.field_res_company__show_followers_partner_format
+#: model:ir.model.fields,help:mail_show_follower.field_res_config_settings__show_followers_partner_format
+msgid ""
+"Supported parameters:\n"
+"%(partner_name)s = Partner Name\n"
+"%(partner_email)s = Partner Email\n"
+"%(partner_email_domain)s = Partner Email Domain"
+msgstr ""
+"Ondersteunde parameters:\n"
+"%(partner_name)s = Naam relatie\n"
+"%(partner_email)s = E-mailadres relatie\n"
+"%(partner_email_domain)s = E-maildomein relatie"
+
+#. module: mail_show_follower
+#: model:ir.model.fields,help:mail_show_follower.field_res_config_settings__show_followers_models_to_exclude
+msgid "Tecnichal model names separated by coma"
+msgstr "Technische modelnamen, gescheiden door komma's"
+
+#. module: mail_show_follower
+#: model:ir.model.fields,field_description:mail_show_follower.field_res_company__show_followers_message_response_warning
+#: model:ir.model.fields,field_description:mail_show_follower.field_res_config_settings__show_followers_message_response_warning
+msgid "Text 'Replies'"
+msgstr "Tekst 'Antwoorden'"
+
+#. module: mail_show_follower
+#: model:ir.model.fields,field_description:mail_show_follower.field_res_company__show_followers_message_sent_to
+#: model:ir.model.fields,field_description:mail_show_follower.field_res_config_settings__show_followers_message_sent_to
+msgid "Text 'Sent to'"
+msgstr "Tekst 'Verzonden aan'"
+
+#. module: mail_show_follower
+#: model_terms:ir.ui.view,arch_db:mail_show_follower.res_config_settings_view_form
+msgid "This message has been sent to"
+msgstr "Dit bericht is verzonden aan"
+
+#. module: mail_show_follower
+#: model:ir.model,name:mail_show_follower.model_res_users
+msgid "User"
+msgstr "Gebruiker"
+
+#. module: mail_show_follower
+#: model_terms:ir.ui.view,arch_db:mail_show_follower.res_config_settings_view_form
+msgid "blog.blog,blog.post"
+msgstr "blog.blog,blog.post"
